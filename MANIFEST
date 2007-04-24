@@ -2,7 +2,6 @@ Build.PL
 Changes
 lib/DBIx/Class/Indexed.pm
 lib/DBIx/Class/Indexer.pm
-lib/DBIx/Class/ResultSet/Indexed.pm
 Makefile.PL
 MANIFEST			This list of files
 META.yml
