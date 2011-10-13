@@ -1,23 +1,28 @@
 ---
-name: DBIx-Class-Indexed
-version: 0.02
+abstract: 'Index data via external indexing facilities.'
 author:
   - 'Adam Paynter <adapay@cpan.org>'
-abstract: Index data via external indexing facilities.
-license: perl
-resources:
-  license: http://dev.perl.org/licenses/
-requires:
-  DBIx::Class: 0
 build_requires:
   Test::More: 0
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112621'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DBIx-Class-Indexed
 provides:
   DBIx::Class::Indexed:
     file: lib/DBIx/Class/Indexed.pm
-    version: 0.02
+    version: 0.03
   DBIx::Class::Indexer:
     file: lib/DBIx/Class/Indexer.pm
-generated_by: Module::Build version 0.2807
-meta-spec:
-  url: http://module-build.sourceforge.net/META-spec-v1.2.html
-  version: 1.2
+    version: 0
+requires:
+  DBIx::Class: 0
+  Module::Load: 0.22
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.03

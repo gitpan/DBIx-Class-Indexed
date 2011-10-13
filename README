@@ -27,7 +27,7 @@ SYNOPSIS
                 indexed  => 1,
             },
         );
-    
+
 ACCESSORS
   indexer_package( [ $indexer ] )
     Sets which indexer will be responsible for indexing this class' data.
@@ -81,11 +81,12 @@ METHODS
     Registers a field as indexed.
 
 AUTHORS
-    * Adam Paynter <adapay@cpan.org>
-    * Brian Cassidy <bricas@cpan.org>
+    *   Adam Paynter <adapay@cpan.org>
+
+    *   Brian Cassidy <bricas@cpan.org>
 
 COPYRIGHT AND LICENSE
-    Copyright 2006 by Adam Paynter
+    Copyright 2006 by Adam Paynter, 2007-2011 by Brian Cassidy
 
     This library is free software; you can redistribute it and/or modify it
     under the same terms as Perl itself.
